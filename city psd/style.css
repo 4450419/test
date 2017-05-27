@@ -1,0 +1,438 @@
+body{
+	margin:0;
+	padding:0;
+}
+
+a{
+	text-decoration: none;
+}
+.wrapper{
+	width:1280px;
+	height:2310px;
+	margin:0 auto;
+	background: #F4F4F4;
+	font-size: 0;
+}
+header{height:80px;	}
+
+header .logo{
+	margin-top:30px;
+	margin-left:186px;	
+	height:22px;
+	width:135px;
+	display: inline-block;
+	background: url("logo.png") no-repeat;
+}
+#blog{
+	margin-top:30px;
+	margin-right: 332px;
+	font-size: 14px;
+	float:right;
+	box-sizing: border-box;
+	background: #F98561;
+	color: #fff;
+	border:1px solid #F98561;
+	width:65px;
+	border-radius: 3px;
+}
+#blog a{
+	display: inline-block;
+	color:#fff;
+	width:65px;
+	text-align: center;	
+}
+.nav{
+	margin:0;
+	padding:0;
+	width:263px;
+	float:right;
+}
+.nav li{
+	text-align: center;	
+	list-style: none;
+	display:inline-block;
+	font-size: 14px;
+	width:65px;
+	color:#515862;
+}
+.nav li:last child {
+	margin-right:100px;
+}
+.nav li a{
+	display: inline-block;
+	width:100%;
+	line-height: 80px;
+	color:inherit;
+}
+.nav li:hover{
+	color:#fff;
+	background-color: #12A3D6;
+}
+.banner{
+	position:relative;
+}
+.big_slider{
+	height:298px;
+	width:1280px;
+	background: url("city.png");
+}
+
+.banner p{
+	font-family:Bebas Neue;
+	font-size: 80px;
+	color:#CCCECE;
+	text-transform: uppercase;
+	margin:0;
+	position: absolute;
+	top:36%;
+	right:40%;
+}
+
+.cont_text{
+	text-align: center;
+	font-family:Tahoma;
+	margin-bottom: 45px;
+}
+
+.cont_text .text1{
+	margin: 0;
+	margin-top: 32px;
+	margin-bottom: 26px;
+	font-size: 50px;
+	color:#2190C1;
+	font-family:Bebas Neue;
+	text-transform: uppercase;
+}
+
+.cont_wrap{
+	font-size:13px;
+	margin-left: 194px;
+	margin-right: 194px;
+	
+}
+.cont_text .text2{
+	margin:0;
+	color:#555C65;
+	font-family: Ubuntu;
+	font-weight: bold;
+}
+.cont_text .text3{
+	margin-top: 37px;
+	color:#60666F;
+	font-family:Ubuntu;	
+}
+
+.last_text{
+	text-transform: uppercase;
+	color:#515862;
+	font-size:69px;
+	font-family:Bebas Neue;
+}
+
+
+/**/
+.columns{
+
+	font-size: 0;
+	width:920px;
+	margin:0 auto;
+}
+.web, .Phone, .Commercial, .Media{
+	display: inline-block;
+	height:305px;
+	width:230px;
+	font-size:20px;
+	text-align: center;
+	padding:10px;
+	padding-top: 40px;
+	border:1px solid #D7D7D7;
+	box-sizing: border-box;
+}
+
+.columns .desc{
+	font-size: 13px;
+	color:#60666F;
+}
+
+.columns .name{
+	font-size:20px;	
+	color:#2190C1;
+}
+
+hr{
+	display: inline-block;
+	width:100%;
+	height: 3px;
+	border:none;
+	background-color: #A5A5A5;
+}
+
+
+/*Наша команда -Our Team*/
+.our_team{
+	height:882px;
+	width:920px;
+	margin:0 auto;
+	margin-top:50px;
+	text-align: center;
+}
+
+.team{
+	font-family: Bebas Neue;
+	font-size:50px;
+	color:#2190C1;
+	text-align: center;
+	margin:0;
+}
+.ppl{
+  position:relative;
+}
+
+
+div .ppl_left, .ppl_right{
+	display:inline-block;
+	width:382px;
+	height:291px;
+	border:1px solid #CCCCCC;
+	margin-top:50px;
+	background: #FFFFFF;
+}
+
+div .ppl_left{
+	margin-right:67px;	
+}
+/*Позиционируем изображения работников*/
+ .info_girl, .info_boy{
+
+ 	position: absolute;
+ 	top:14px;
+ 	left:14px;
+ }
+
+
+/*Тень при наведении на команду*/
+.ppl_left:hover, 
+.ppl_right:hover{
+	cursor: pointer;
+	margin-top:50px;
+	box-shadow: -10px -10px 0 #D3D3D3;
+}
+
+ 
+.ppl_right:hover{
+	box-shadow: 10px -10px 0 #D3D3D3;
+}
+
+.status, .name_ppl{
+	position:absolute;
+}
+.status{
+	display: inline-block;
+	height:15px;
+	width:100px;
+	left:50%;
+	font-size: 18px;
+	font-family: BreeSerif;
+	color:#666666;
+}
+
+/*Позиционируем имена команды*/
+.name_ppl{
+	font-size:32px;
+	font-family:Bebas Neue;
+	display: inline-block;
+	height:24px;
+	width:149px;
+	margin-top: 11px;
+	top:26px;
+	left:174px;
+	text-transform: uppercase;
+	color:#2190C1;
+}
+
+
+/*Разбираемся с почтой команды*/
+.our_team a{
+	position:absolute;
+	font-size: 14px;
+	font-family: Ubuntu;
+	color:#9FA1A5;
+	top:68px;
+	left:172px;
+}
+
+
+/*4 непонятных квадратика*/
+.geom_group{
+	background: url("geom_group.png") no-repeat;
+	display: inline-block;
+	width:132px;
+	height:25px;
+	position: absolute;
+	top:100px;
+	left:183px;
+}
+
+/*Описание команды*/
+.our_team .desc_team{
+	position: absolute;
+	display: inline-block;
+	font-size: 12px;
+	font-family: Ubuntu;
+	height:92px;
+	width:352px;
+	top:160px;
+	left:12px;
+	color:#515862;
+}
+
+
+
+/*Футер*/
+footer{
+	background-color:#2E3E4F;
+	font-family: Ubuntu;
+	height:340px;
+}
+
+footer a{
+	display:block;
+	color:#2190C1;
+	height:14px;
+	font-size: 12px;
+}
+footer>div{
+	display: inline-block;
+	height: 258px;
+	margin-top:40px;
+	margin-bottom:37px;
+	margin-right: 27px;
+	/*float:left;*/
+	vertical-align: middle;
+}
+
+footer .twitter{
+	margin-left:178px;
+	width: 220px;
+}
+footer .news{width:247px;}
+
+footer .recent{width:231px;}
+
+footer .contact{width:148px;}
+
+
+ /*Общее у всех имен */
+ .title{
+ 	text-align: left!important;
+	text-transform: uppercase;
+	color:#F98561 !important;
+	font-size:30px;
+	font-family:Bebas Neue;
+	margin:0;
+}
+
+
+/*Данные первой колонки-TWITTER FEEDS*/
+.data{
+	text-align: left!important;
+}
+.data >p.check{
+	font-size: 12px;
+	color:#A3AFB2;
+	margin:6px 0;
+	margin-top: 11px;
+}
+.data >p.time{
+	margin-bottom: 12px;
+	margin-top: 7px;
+}
+.twitter hr, .news hr, .recent hr{
+	height: 0;
+	width:210px;
+	border:1px solid #556270;
+	border-bottom:none;
+	border-left: none;
+	border-right:none;
+}
+
+
+/*Вторая колонка футера*/
+.news> .data> .check{
+	line-height:19px;
+}
+.news p.email{
+	color:#2190C1;
+	font-size:13px;
+}
+footer input[type=text]{
+	width:245px;
+	height: 28px;
+	padding:0;
+	border:1px solid transparent;
+	border-radius: 3px;
+	margin-top:7px;
+	margin-bottom: 17px;
+}
+input[type=submit] {
+	float:right; 	
+    cursor:pointer;
+    width:77px;
+    height:25px;
+    background-color: #2190C1;
+    color:#FFFFFF;
+    border:0px solid transparent;
+	border-radius: 3px;
+ }   
+
+
+/*Третья колонка футера*/
+.square{
+	display:inline-block;
+	width:56px;
+	height:57px;
+	background-color: #fff;
+	margin-top: 11px;
+	margin-right: 10px;
+	float:left;
+}
+.recent .name_proj{
+	width:125px;
+	float:left;
+}
+.recent .pos{
+	float:left;
+	width:100px;
+}
+.recent .postime{
+	float:left;
+}
+
+
+/*Четвертая колонка футера-контакты*/
+.contact .title{
+	margin-bottom:17px;
+}
+.contact .contact_list{
+	margin-bottom: 22px;
+}
+.contact .icon{
+	display: inline-block;
+	width:34px;
+	height: 35px;
+	background: url("phone.png") no-repeat;
+	float:left;
+	margin-right:9px;
+}
+.contact .msg{
+	background: url("msg.png") no-repeat;
+	margin-top: 6px;
+}
+
+.contact .number{
+	display:inline-block;
+	font-size: 13px;
+	font-family: Ubuntu;
+	color:#999;
+	margin:2px 0 ;
+}
